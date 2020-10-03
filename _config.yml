@@ -40,6 +40,4 @@ plugins:
   - jekyll-feed
 
 collections:
-  powershell:
-    output: true
-    permalink: /:path/
+  - powershell
