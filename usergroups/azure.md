@@ -20,7 +20,7 @@ permalink: /azure/
 
 | Name | Country & City | Language | Website(s) | Contact |
 | ---- | -------------- | -------- | ---------- | ------- |
-| Azure User Group Norway | :norway: | NO, ENG | [Meetup](https://www.meetup.com/Azure-User-Group-Norway/) | [Anders Eide](https://twitter.com/anderseide)<br/>[Jan Egil Ring](https://twitter.com/JanEgilRing)<br/>[Martin Ehrnst](https://twitter.com/ehrnst)<br/>[Roger Ison-Haug](https://twitter.com/rogerih) |
+| Azure User Group Norway | 🇳🇴 | NO, ENG | [Meetup](https://www.meetup.com/Azure-User-Group-Norway/) | [Anders Eide](https://twitter.com/anderseide)<br/>[Jan Egil Ring](https://twitter.com/JanEgilRing)<br/>[Martin Ehrnst](https://twitter.com/ehrnst)<br/>[Roger Ison-Haug](https://twitter.com/rogerih) |
 
 ### Asia Pacific
 
