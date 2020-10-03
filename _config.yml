@@ -40,5 +40,5 @@ plugins:
   - jekyll-feed
 
 collections:
-  - powershell
-collections_dir: usergroups
+  powershell:
+    output: true
