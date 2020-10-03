@@ -25,7 +25,7 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: address-card}
   - title: PowerShell
-    url: powershell.html
+    url: /powershell/
 
 external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
