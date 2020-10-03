@@ -1,14 +1,24 @@
 ---
 layout: page
 title: "PowerShell User Groups"
-permalink: /powershell/
 ---
-
-<table>
-
-</table>
 {% for usergroup in site.powershell %}
   {% if usergroup.region == "Europe" %}
-    | {{ usergroup.name }} | {{ usergroup.location }} | {{ usergroup.language }} | {{ usergroup.website }} | {{ usergroup.contact }}
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Language</th>
+        <th>Website</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <th>{{ usergroup.name }}</th>
+        <th>{{ usergroup.location }}</th>
+        <th>{{ usergroup.language }}</th>
+        <th>{{ usergroup.website }}</th>
+        <th>{{ usergroup.contact }}</th>
+      </tr>
+    </table>
   {% endif %}
 {% endfor %}
