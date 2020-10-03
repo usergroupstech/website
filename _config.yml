@@ -38,3 +38,7 @@ comments:
 
 plugins:
   - jekyll-feed
+
+collections:
+  - powershell
+collections_dir: usersgroups
