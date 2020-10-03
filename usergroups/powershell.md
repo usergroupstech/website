@@ -10,8 +10,6 @@ permalink: /powershell/
 * [Asia Pacific](#asia-pacific)
 * [Africa](#africa)
 
----
-
 ### North-America
 
 | Name | Country & City | Language | Website(s) | Contact |
@@ -34,3 +32,4 @@ permalink: /powershell/
 
 | Name | Country & City | Language | Website(s) | Contact |
 | ---- | -------------- | -------- | ---------- | ------- |
+| - | - | - | - | - |
