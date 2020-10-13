@@ -6,12 +6,12 @@ language:   'EN, NO'
 website:    'https://npug.no'
 meetup:     'https://www.meetup.com/Norwegian-PowerShell-User-Group/'
 contact:
-  - 'Roberth Strand'
+  'Roberth Strand':
     twitter: 'https://twitter.com/roberthtweets'
-  - 'Maximilian Lærum'
+  'Maximilian Lærum':
     twitter: 'https://twitter.com/Tr4pSec'
-  - 'Tor Magnus Rakvåg'
+  'Tor Magnus Rakvåg':
     twitter: 'https://twitter.com/TMAutomates'
-  - 'Tom-Inge Larsen'
+  'Tom-Inge Larsen':
     twitter: 'https://twitter.com/ti83'
 ---
