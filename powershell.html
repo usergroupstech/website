@@ -7,15 +7,15 @@ title: "PowerShell User Groups"
     <th>Name</th>
     <th>Location</th>
     <th>Language</th>
-    <th>Website</th>
+    <th>Meetup</th>
     <th>Contact</th>
   </tr>
 {% for usergroup in site.powershell %}
       <tr>
-        <th>{{ usergroup.name }}</th>
+        <th><a href="{{ usergroup.website }}" target="_blank">{{ usergroup.name }}</a></th>
         <th>{{ usergroup.location }}</th>
         <th>{{ usergroup.language }}</th>
-        <th><a href="{{ usergroup.website }}" target="_blank">{{ usergroup.website }}</a></th>
+        <th><a href="{{ usergroup.meetup }}" target="_blank">{{ usergroup.meetup }}</a></th>
         <th>
           {% for contact in usergroup.contact %}
             <p><a href="{{ contact.twitter }}" target="_blank">{{ contact.name }}</a></p>
