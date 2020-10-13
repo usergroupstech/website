@@ -3,7 +3,6 @@ layout: page
 title: "PowerShell User Groups"
 ---
 {% for usergroup in site.powershell %}
-  {% if usergroup.region == "Europe" %}
     <table>
       <tr>
         <th>Name</th>
@@ -20,5 +19,4 @@ title: "PowerShell User Groups"
         <th>{{ usergroup.contact }}</th>
       </tr>
     </table>
-  {% endif %}
 {% endfor %}
