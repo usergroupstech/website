@@ -18,7 +18,7 @@ title: "PowerShell User Groups"
         <th><a href="{{ usergroup.meetup }}" target="_blank">{{ usergroup.meetup }}</a></th>
         <th>
           {% for contact in usergroup.contact %}
-            <p><a href="{{ contact.twitter }}" target="_blank">{{ contact.name }}</a></p>
+            <p><a href="{{ contact.twitter }}" target="_blank">{{ contact[0].name }}</a></p>
           {% endfor %}
         </th>
       </tr>
