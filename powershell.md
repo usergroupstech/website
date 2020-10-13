@@ -9,18 +9,16 @@ title: "PowerShell User Groups"
 * [Asia Pacific](#asia-pacific)
 * [Africa](#africa)
 
-### Europe
-{% include table-start.md %}
+### North America
 {% for usergroup in site.powershell %}
-  {% if usergroup.region == 'Europe' %}
+  {% if usergroup.region == 'North America' %}
     {% include usergroup.html %}
   {% endif %}
 {% endfor %}
 
-### North America
-{% include table-start.md %}
+### Europe
 {% for usergroup in site.powershell %}
-  {% if usergroup.region == 'North America' %}
+  {% if usergroup.region == 'Europe' %}
     {% include usergroup.html %}
   {% endif %}
 {% endfor %}

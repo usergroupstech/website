@@ -1,23 +1,20 @@
-<tr>
-  <th>{{ usergroup.name }}</th>
-  <th>{{ usergroup.location }}</th>
-  <th>{{ usergroup.language }}</th>
-  <th>
-    {% if usergroup.website %}
-    <p><a href="{{ usergroup.website }}" target="_blank">Website</a></p>
-    {% endif %}
-    {% if usergroup.meetup %}
-    <p><a href="{{ usergroup.meetup }}" target="_blank">Meetup.com</a></p>
-    {% endif %}
-    {% if usergroup.facebook %}
-    <p><a href="{{ usergroup.facebook }}" target="_blank">Facebook</a></p>
-    {% endif %}
-    {% if usergroup.twitter %}
-    <p><a href="{{ usergroup.twitter }}" target="_blank">Twitter</a></p>
-    {% endif %}
-  <th>
-    {% for contact in usergroup.contact %}
-    <p><a href="{{ contact[1] }}" target="_blank">{{ contact[0] }}</a></p>
-    {% endfor %}
-  </th>
-</tr>
+<h4>{{ usergroup.name }}</h4> <br>
+<p>{{ usergroup.location }}, {{ usergroup.language }}</p>
+
+{% if usergroup.website %}
+<p><a href="{{ usergroup.website }}" target="_blank">Website</a></p>
+{% endif %}
+{% if usergroup.meetup %}
+<p><a href="{{ usergroup.meetup }}" target="_blank">Meetup.com</a></p>
+{% endif %}
+{% if usergroup.facebook %}
+<p><a href="{{ usergroup.facebook }}" target="_blank">Facebook</a></p>
+{% endif %}
+{% if usergroup.twitter %}
+<p><a href="{{ usergroup.twitter }}" target="_blank">Twitter</a></p>
+{% endif %}
+<p>
+  {% for contact in usergroup.contact %}
+<p><a href="{{ contact[1] }}" target="_blank">{{ contact[0] }}</a></p>
+{% endfor %}
+</p>
