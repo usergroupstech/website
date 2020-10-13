@@ -40,5 +40,4 @@ plugins:
   - jekyll-feed
 
 collections:
-  powershell:
-    output: true
+  - powershell
