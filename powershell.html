@@ -2,30 +2,20 @@
 layout: page
 title: "PowerShell User Groups"
 ---
-<table style="width:100%">
-  <tr>
-    <th>Name</th>
-    <th>Location</th>
-    <th>Language</th>
-    <th>Website</th>
-    <th>Contact</th>
-  </tr>
-  {% for usergroup in site.powershell %}
+<h3>Europe</h3>
+{% include table-start.html %}
+{% for usergroup in site.powershell %}
   {% if usergroup.region == 'Europe' %}
-  <tr>
-    <th colspan="5">
-      <h3>Europe</h3>
-    </th>
-  </tr>
-  {% include usergroup.html %}
+    {% include usergroup.html %}
   {% endif %}
+{% endfor %}
+{% include table-stop.html %}
+
+<h3>North America</h3>
+{% include table-start.html %}
+{% for usergroup in site.powershell %}
   {% if usergroup.region == 'North America' %}
-  <tr>
-    <th colspan="5">
-      <h3>North America</h3>
-    </th>
-  </tr>
-  {% include usergroup.html %}
+    {% include usergroup.html %}
   {% endif %}
-  {% endfor %}
-</table>
+{% endfor %}
+{% include table-stop.html %}
