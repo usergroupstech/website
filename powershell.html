@@ -2,6 +2,7 @@
 layout: page
 title: "PowerShell User Groups"
 ---
+{% if site.powershell.region  %}
 <table>
   <tr>
     <th>Name</th>
@@ -10,7 +11,7 @@ title: "PowerShell User Groups"
     <th>Website</th>
     <th>Contact</th>
   </tr>
-{% for usergroup in site.powershell %}
+{% for usergroup in site.powershell | where: region == 'Europe' %}
       <tr>
         <th>{{ usergroup.name }}</th>
         <th>{{ usergroup.location }}</th>
