@@ -12,13 +12,13 @@ title: "PowerShell User Groups"
 ### North America
 {% for usergroup in site.powershell %}
   {% if usergroup.region == 'North America' %}
-    {% include usergroup.html %}
+    {% include usergroup.md %}
   {% endif %}
 {% endfor %}
 
 ### Europe
 {% for usergroup in site.powershell %}
   {% if usergroup.region == 'Europe' %}
-    {% include usergroup.html %}
+    {% include usergroup.md %}
   {% endif %}
 {% endfor %}
