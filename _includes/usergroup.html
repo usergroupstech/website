@@ -1,4 +1,6 @@
-<p>
+---
+layout: default
+---
 <p class="usergroupname">
   {{ usergroup.name }}
 </p>
@@ -27,5 +29,4 @@
   {% for contact in usergroup.contact %}
 <p><a href="{{ contact[1] }}" target="_blank">{{ contact[0] }}</a></p>
 {% endfor %}
-</p>
 </p>
