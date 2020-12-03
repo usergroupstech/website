@@ -22,3 +22,17 @@ title: "PowerShell User Groups"
     {% include usergroup.html %}
   {% endif %}
 {% endfor %}
+
+### Asia Pacific
+{% for usergroup in site.powershell %}
+  {% if usergroup.region == 'Asia Pacific' %}
+    {% include usergroup.html %}
+  {% endif %}
+{% endfor %}
+
+### Africa
+{% for usergroup in site.powershell %}
+  {% if usergroup.region == 'Africa' %}
+    {% include usergroup.html %}
+  {% endif %}
+{% endfor %}
