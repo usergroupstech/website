@@ -1,9 +1,13 @@
-<h3>
+<p class="usergroupname">
   {{ usergroup.name }}
-</h3>
+</p>
 
-<p>
-  {{ usergroup.location }} - {{ usergroup.language }}
+<p class="usergrouplocation">
+  {{ usergroup.location }}
+</p>
+
+<p class="usergrouplanguage">
+  {{ usergroup.language }}
 </p>
 
 {% if usergroup.website %}
